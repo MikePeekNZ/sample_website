@@ -6,10 +6,12 @@
   </head>
   <body>
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: blue;">Home</a>
+      <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none;
+      color: blue;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin-left: 10px;
+      text-decoration: none; color: blue;">Moby Dick</a>
     </div>
 
     <h1>Important HTML tags</h1>
@@ -40,14 +42,14 @@
         <th>Purpose</th>
       </tr>
       <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>headings</td>
-        <td>include a heading (levels 1&ndash;6)</td>
+        <td padding: 10px><code>h1</code>&ndash;<code>h6</code></td>
+        <td padding: 10px>headings</td>
+        <td padding: 10px>include a heading (levels 1&ndash;6)</td>
       </tr>
       <tr>
-        <td><code>p</code></td>
-        <td>paragraph</td>
-        <td>include a paragraph of text</td>
+        <td padding: 10px><code>p</code></td>
+        <td padding: 10px>paragraph</td>
+        <td padding: 10px>include a paragraph of text</td>
       </tr>
       <tr>
         <td><code>table</code></td>
@@ -72,22 +74,37 @@
       <tr>
         <td><code>header</code></td>
         <td>header</td>
-        <td>container for introductory content</td>
+        <td>label the page header</td>
       </tr>
       <tr>
         <td><code>div</code></td>
         <td>division</td>
-        <td>divide page into separate units</td>
+        <td>define a block-level section in document</td>
       </tr>
       <tr>
         <td><code>ol</code></td>
         <td>ordered list</td>
-        <td>create an ordered list</td>
+        <td>list elements in numerical order</td>
       </tr>
       <tr>
         <td><code>ul</code></td>
         <td>unordered list</td>
-        <td>create an unordered list</td>
+        <td>list elements whose order doesn't matter</td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>list item</td>
+        <td>include a list item (ordered or unordered)</td>
+      </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>block quotation</td>
+        <td>show formated quotation</td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>break</td>
+        <td>enter line break</td>
       </tr>
     </table>
 
@@ -141,6 +158,13 @@
         <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl" /></td>
       </tr>
       <tr>
+        <td><code>code</code></td>
+        <td>code</td>
+        <td>format as source code</td>
+        <td>&lt;code&gt;table&lt;/code&gt;</td>
+        <td><code>table</code></td>
+      </tr>
+      <tr>
         <td><code>span</code></td>
         <td>span</td>
         <td>use to style a part of text</td>
@@ -153,12 +177,41 @@
           <td>My mother has <span style="color:blue">blue</span> eyes.
         </td>
       </tr>
+    </table>
+
+    <h2>Document Tags</h2>
+
+    <table>
       <tr>
-        <td>li</td>
-        <td>list item</td>
-        <td>single entry in a list</td>
-        <td>&lt;li&gt;list content&lt;/li&gt;</td>
-        <td><li>list content</li></td>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td><strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup
+        <strong>L</strong>anguage</td>
+        <td>The standard markup language for creating web pages</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>head</td>
+        <td>Contain a web page's metadata</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>Contain a web page's content</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>title</td>
+        <td>Title of web page</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>metadata</td>
+        <td>Include metadata about an HTML document</td>
       </tr>
     </table>
   </body>
